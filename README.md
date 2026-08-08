@@ -4,5 +4,5 @@
 ## 如何使用该bucket?
 ```pwsh
 scoop bucket add ComicApps  https://github.com/XuanN1an/ComicApps
-scop install kazumi
+scoop install kazumi
 ```
