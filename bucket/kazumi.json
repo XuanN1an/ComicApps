@@ -1,0 +1,25 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "2.2.7",
+    "description": "kazumi是使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。",
+    "homepage": "https://github.com/Predidit/Kazumi",
+    "license": "GPL-3.0",
+    "url": "https://github.com/Predidit/Kazumi/releases/download/2.2.7/Kazumi_windows_2.2.7.zip",
+    "hash": "sha256:80f591360f39bf108cfb82c7a537533afa8f495a236c8fb10ef834ef2b8a2728",
+    "extract_dir": "kazumi",
+    "bin": [
+        "kazumi.exe"
+    ],
+    "shortcuts": [
+        [
+            "kazumi.exe",
+            "kazumi"
+        ]
+    ],
+    "checkver":{
+        "github": "https://github.com/Predidit/Kazumi"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Predidit/Kazumi/releases/download/$version/Kazumi_windows_$version.zip"
+    }
+}
