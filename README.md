@@ -6,4 +6,5 @@
 ```pwsh
 scoop bucket add ComicApps  https://github.com/XuanN1an/ComicApps
 scoop install kazumi
+scoop install aseprite
 ```

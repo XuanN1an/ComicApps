@@ -1,0 +1,25 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "1.3.18.2",
+    "description": "Aseprite 是一款动画精灵编辑器和像素画工具（由 aseprite-builder 自动构建）。",
+    "homepage": "https://github.com/XuanN1an/aseprite-builder",
+    "license": "EULA",
+    "notes": "本包由 XuanN1an/aseprite-builder 自动构建，请遵守 Aseprite 的 EULA（仅限个人使用）。",
+    "url": "https://github.com/XuanN1an/aseprite-builder/releases/download/v1.3.18.2/Aseprite-v1.3.18.2-Windows.zip",
+    "hash": "e65024d101ff1bd2ae615b7faf7effd75ffb7206f74e90117a4871663b317109",
+    "bin": "aseprite.exe",
+    "shortcuts": [
+        [
+            "aseprite.exe",
+            "Aseprite"
+        ]
+    ],
+    "persist": "aseprite.ini",
+    "checkver": {
+        "url": "https://api.github.com/repos/XuanN1an/aseprite-builder/releases",
+        "regex": "\"tag_name\":\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/XuanN1an/aseprite-builder/releases/download/v$version/Aseprite-v$version-Windows.zip"
+    }
+}
